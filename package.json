@@ -1,0 +1,22 @@
+{
+  "name": "web-design-site-server",
+  "version": "1.0.0",
+  "description": "eiko website server by express & mongoose & node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eiko"
+  ],
+  "author": "eiko or arisaTaki",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.10",
+    "morgan": "^1.10.0"
+  }
+}
