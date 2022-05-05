@@ -19,10 +19,6 @@ const userSchema = new mongoose.Schema({
         //不会带出password，查询的时候
         select: false
     },
-    bio: {
-        type: String,
-        default: null,
-    },
     image: {
         type: String,
         default: null,
