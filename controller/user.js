@@ -60,10 +60,11 @@ exports.login = async (req, res, next) => {
 
 // 获取当前登录用户
 exports.getCurrentUser = async (req, res, next) => {
+  const user = req.user.toJSON()
   try {
     // 处理请求
     res.status(200).json(formatRes(200, '', {
-      user: req.user
+      ...user
     }));
   } catch (err) {
     next(err);
